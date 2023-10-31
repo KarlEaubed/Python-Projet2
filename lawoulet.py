@@ -34,10 +34,6 @@ def joue_jeu(utilizate, scores):
 
     while chans_rete > 0:
         try:
-            if keyboard.is_pressed('k'):
-                print("Jwèt la kanpe!")
-                break
-
             nimewo_tape = int(input("Tape yon nimewo: "))
             if nimewo_tape < 0 or nimewo_tape > 100:
                 print("Nimewo a dwe ant 0 ak 100.")
