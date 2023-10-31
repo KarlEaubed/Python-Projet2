@@ -26,7 +26,7 @@ def check_for_pause():
 def joue_jeu(utilizate, scores):
     epsedo = {'min': 0, 'max': 100}
     nimewo_kache = random.randint(epsedo['min'], epsedo['max'])
-    chans_rete = 20
+    chans_rete = 5
 
     # Créez un thread pour surveiller la touche 'K'
     pause_thread = threading.Thread(target=check_for_pause)
